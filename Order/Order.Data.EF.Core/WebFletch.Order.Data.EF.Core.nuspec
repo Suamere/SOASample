@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+    <metadata>
+        <id>WebFletch.Order.Data.EF.Core</id>
+        <version>1.0.0</version>
+        <title>Order Data EF Core</title>
+        <authors>WebFletch</authors>
+        <owners>WebFletch</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Order Data EF Core</description>
+        <dependencies>
+            <group>
+              <dependency id="EntityFramework" version="6.1.3" />
+            </group>
+        </dependencies>
+        <references>
+          <reference file="WebFletch.Order.Data.EF.Core.dll" />
+          <reference file="WebFletch.Order.Data.Core.dll" />
+          <reference file="WebFletch.Order.Data.Entities.dll" />
+        </references>
+    </metadata>
+    <files>
+      <file src="bin\Release\WebFletch.Order.Data.EF.Core.dll" target="lib\net45\WebFletch.Order.Data.EF.Core.dll" />
+      <file src="bin\Release\WebFletch.Order.Data.EF.Core.dll" target="lib\net45\WebFletch.Order.Data.Core.dll" />
+      <file src="bin\Release\WebFletch.Order.Data.Entities.dll" target="lib\net45\WebFletch.Order.Data.Entities.dll" />
+    </files>
+</package>
